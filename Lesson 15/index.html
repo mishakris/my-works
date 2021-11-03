@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+    <h1>STRUCTURAL AND POSITION PSEUDO_CLASSES</h1>
+    <p><a href="#" class="first">:first-child :last-child and :only-child</a></p>
+    <div>
+        <p><strong>This list item is selected by :first-child</strong> </p>
+        <p>This list item isn't selected</p>
+      </div>
+      <div>
+        <p><a href="#" class="first">THIS LISTED LINK IS SELECTED BY :ONLY_CHILD</a></p>
+      </div>
+      <div class="second">
+        <p>:first-of-type :last-of-type and :only-of-type</p>
+        <div>
+            <p><a href="#" class="zz">This paragraph is selected by :first-of-type</a></p>
+            <p>This paragraph will not be selected</p>
+            <p><a href="#" class="zzz">THIS SPAN IS SELECTED BY :ONLY-OF-TYPE</a></p>
+            <p><a href="#" class="zzzz">This paragraph is selected by :last-of-type</a></p>
+        </div>
+      </div>
+      <div class="three">
+        <p>:nth-child(n) and :nth-last-child(n)</p>
+        <p><strong><a href="#" class="zzzzz">First line of text</a></strong></p>
+      </div>
+      <div class="four">
+          <h2>LINK PSEUDO_CLASSES</h2>
+          <p><a href="#" target="_blank" class="four1">:visited pseudo-class</a></p>
+          <p><a href="#" target="_blank" class="four2">:visited pseudo-class</a></p>
+      </div>
+      <div class="five">
+        <h2>USER ACTION PSEUDO_CLASSES</h2>
+        <p><a href="#" class="four3">HOVER pseudo-class</a></p>
+        <p><a href="#" class="four2">:active pseudo-class</a></p>
+        <p><a href="#" class="four2">:focus pseudo-class</a></p>
+      </div>
+      <div class="six">
+        <h2>USER INTERFACE STATE  PSEUDO_CLASSES</h2>
+        <form action="/my-handling-form-page" method="post">
+          <ul>
+            <li>
+              <label for="name">First Name:</label>
+              <input type="text" id="fname" name="firstname" placeholder="MALCOLM">
+              <label for="lname">Last Name:</label>
+    <input type="text" id="lname" name="lastname" placeholder="Reynolds">
+    <label for="lname">I own a Firefly-class transport ship</label>
+    <label class="container">
+      <input type="checkbox" checked="checked">
+      <p class="checkmark"></p>
+  </label>
+           </li>
+      </div>
+</div>
+</body>
+</html>

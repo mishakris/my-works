@@ -1,0 +1,63 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
+body{
+    background-color: rgb(129, 121, 139);
+    font-family: "Roboto", sans-serif;
+}
+.container{
+ background: white;
+ box-shadow: 0 1px 4px 0 black;
+ height: 350px;
+ padding: 24px 40px;
+ max-width: 700px;
+ margin: 24px auto;
+ width: 100%;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.first::after{
+content:">";
+position: absolute;
+margin: 0 7px;
+bottom: 0;
+top: 177px;
+-webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.first:hover::after{
+    -webkit-transform: translateX(3px);
+  transform: translateX(3px);
+}
+a .second::after { background: url("http://www.candicendexter.com/images/long-arrow-alt-right-solid.svg") center center no-repeat;
+    content: " ";
+    position: absolute;
+    margin: auto;
+    padding: 0;
+    bottom: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    right: 30px;
+}
+a .second::before{ background: url("http://www.candicendexter.com/images/hexagon.svg") center top no-repeat;
+    content: " ";}
+
+    .thir::after{
+        content:"(https://www.google.com)";
+        position: absolute;
+        margin: 0 7px;
+        bottom: 0;
+        top: 347px;
+        text-decoration: underline;
+    }
+

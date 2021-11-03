@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+.start{
+    height: auto;
+    width: auto;
+    position: absolute;
+    left: 930px;
+    font-size: 20px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+}
+.first{
+    background: white;
+ box-shadow: 0 1px 4px 0 black;
+ height: 350px;
+ padding: 24px 40px;
+ max-width: 1400px;
+ margin: 24px auto;
+ width: 100%;
+ border-radius: 25px;
+ position: absolute;
+ top: 150px;
+ left: 450px;
+}
+.lesson1{
+    background: white;
+    box-shadow: 0 1px 4px 0 black;
+    height: 250px;
+    padding: 24px 40px;
+    max-width: 400px;
+    margin: 24px auto;
+    width: 100%;
+    border-radius: 25px;
+    position: absolute;
+
+}
+h3{
+    font-size: 27px;
+}
+li{
+    list-style-type: none;
+    padding: 15px;
+}
+a{
+    text-decoration: none;
+}
+.btn{
+    border: 2px solid white;
+    box-shadow: 0 1px 4px 0 black;
+    padding: 10px 30px;
+    border-radius: 25px;
+    color: black;
+}
+.view1{
+    position: absolute;
+ top: 150px;
+ left: 20px;
+}
+.lesson2{
+    background: white;
+    box-shadow: 0 1px 4px 0 black;
+    height: 250px;
+    padding: 24px 40px;
+    max-width: 400px;
+    margin: 24px auto;
+    width: 100%;
+    border-radius: 25px;
+    position: absolute;
+    left:500px;
+}

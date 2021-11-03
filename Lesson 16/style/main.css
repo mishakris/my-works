@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+      background-color: rgb(129, 121, 139);
+      font-family: "Roboto", sans-serif;
+  }
+  .link:link{
+      color: green;
+  }
+  a{
+      color: indigo;
+  }
+
+  }
+  #link:link{
+      color: blueviolet;
+  }
+  #link:visited{
+      color: green;
+  }
+  #visited:link{
+      color: blueviolet;
+  }
+  #visited:visited{
+color: green;
+  }
+  #link:focus{
+      color: white;
+  }
